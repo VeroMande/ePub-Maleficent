@@ -1,0 +1,117 @@
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt;
+}
+
+/*font importati*/
+@font-face {
+	font-family: "Georgia";
+	src: url(fonts/Georgia.ttf)
+}
+
+@font-face {
+	font-family: "Georgia";
+	font-style: italic;
+	src: url(fonts/Georgia-Italic.ttf)
+}
+
+@font-face {
+	font-family: "Malefic Font";
+	src: url(fonts/Malefic-Font.ttf)
+}
+
+@font-face {
+	font-family: "Arial";
+	src: url(fonts/Arial.ttf)
+}
+
+@font-face {
+	font-family: "Georgia";
+	font-weight: bold;
+	src: url(fonts/Georgia-Bold.ttf)
+}
+
+/*classi-varie*/
+a.contents:link {
+  color:#1f6a10;
+  text-decoration:none;
+  font-size:1.8em;
+  display:block;
+  text-align:center;
+}
+
+a.contents:hover {
+  color:black;
+}
+
+.titolo {
+    display: block;
+    font-family: "Malefic Font", serif;
+    font-size: 2.7em;
+    text-align:center;
+}
+    
+.block_24 {      /*definisce interlinea*/
+    display: block;
+    line-height: 1.56;
+    text-align: left;
+    text-indent: 0;
+    margin: 0 5.1pt 0.15pt;
+    padding: 0
+}
+    
+.fontArial {
+    display: block;
+    font-family: "Arial", sans-serif;
+    font-size: 0.85em;
+    line-height: 1.1;
+    text-align: center;
+
+}
+
+.corpo {
+    color: #000;
+    display: block;
+    font-family: "Georgia", serif;
+    font-size: 1.1em;  
+}
+
+.corpoCentrato {
+    text-align: center;
+    color: #000;
+    display: block;
+    font-family: "Georgia", serif;
+    font-size: 1em;
+}
+
+div.container {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto; /* centriamo contenitore principale */
+}
+
+img.contenuti {
+    width: 100%; /* larghezza d'mmagine  */
+    height: auto; /* altezza de'immagine  */
+}
+
+.audio {
+  display:block;
+  margin:0px auto;
+  text-align: center;
+}
+
+.cornice {
+  height:500;
+}
+
+.lettera {
+    font-family: "Malefic font", verdana;
+    font-size: 3em;
+}
+    
+.grassetto {
+    font-family: "Georgia", serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
